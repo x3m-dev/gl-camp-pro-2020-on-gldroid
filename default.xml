@@ -8,7 +8,7 @@
   <remote  name="x3m-dev"   fetch="https://github.com/x3m-dev/" />
 
   <project path="gl-pro-camp-2020" remote="x3m-dev" name="gl-android-training-2020" revision="gl-pro-camp-dev" >
-	<linkfile src="practice/product-definition" dest="device/x3m/gl-pro-camp-led-ctrl-practice-target" />
+	<copyfile src="practice/product-definition" dest="device/x3m/gl-pro-camp-led-ctrl-practice-target" />
 	<linkfile src="practice/led-ctrl-components" dest="vendor/x3m/led-ctrl" />
   </project>
 
