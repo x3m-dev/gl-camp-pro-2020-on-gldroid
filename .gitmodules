@@ -1,0 +1,3 @@
+[submodule "glodroid_manifest"]
+	path = glodroid_manifest
+	url = https://github.com/GloDroid/glodroid_manifest.git
