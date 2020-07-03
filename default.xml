@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <include name="glodroid_manifest/default.xml" />
+  <include name="glodroid_manifest/aosp.xml" />
+  <include name="glodroid_manifest/aosp-override.xml" />
+  <include name="glodroid_manifest/glodroid.xml" />
 
   <remote  name="x3m-dev"   fetch="https://github.com/x3m-dev/" />
 
